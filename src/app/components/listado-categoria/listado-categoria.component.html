@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>Listado</h1>
+
+    
+        <mat-card *ngFor="let item of categoria" (click)=verDetail(item.idDrink)>
+            {{item.strDrink}}
+            <img src={{item.strDrinkThumb}} alt="" >
+             
+        </mat-card>
+</div>
+
+

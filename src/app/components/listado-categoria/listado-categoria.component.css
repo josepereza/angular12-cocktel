@@ -1,0 +1,14 @@
+mat-card{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+.container{
+   
+}
+img{
+    width:12%;
+    margin-left: 20px;
+}
