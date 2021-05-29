@@ -3,10 +3,10 @@ import { CocktelService } from 'src/app/services/cocktel.service';
 
 @Component({
   selector: 'app-listado',
-  templateUrl: './listado.component.html',
-  styleUrls: ['./listado.component.css']
+  templateUrl: './intro.component.html',
+  styleUrls: ['./intro.component.css']
 })
-export class ListadoComponent implements OnInit {
+export class IntroComponent implements OnInit {
 cocktels:string[]=[]
   constructor(private cocktelService:CocktelService) { }
 

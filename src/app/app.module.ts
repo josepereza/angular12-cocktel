@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 
 import { SidenavComponent } from './components/sidenav/sidenav.component';
-import { ListadoComponent } from './components/listado/listado.component';
+import { IntroComponent } from './components//intro/intro.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ListadoCategoriaComponent } from './components/listado-categoria/listado-categoria.component';
 import { CocktelDetailComponent } from './components/cocktel-detail/cocktel-detail.component';
@@ -16,7 +16,7 @@ import { CocktelDetailComponent } from './components/cocktel-detail/cocktel-deta
   declarations: [
     AppComponent,
     SidenavComponent,
-    ListadoComponent,
+    IntroComponent,
     ListadoCategoriaComponent,
     CocktelDetailComponent
   ],
